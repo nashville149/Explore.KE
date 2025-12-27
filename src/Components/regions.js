@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { tourismData } from "../Data/tourismData";
+import { tourismData } from "../Data/tourismdata";
 
 function Regions() {
   const navigate = useNavigate();
