@@ -20,5 +20,13 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    hmr: {
+      overlay: true,
+    },
+    watch: {
+      usePolling: false,
+    },
+  },
 })
 
